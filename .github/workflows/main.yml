@@ -8,7 +8,6 @@ jobs:
     # To use this repository's private action, you must check out the repository
     - name: Checkout
       uses: actions/checkout@v1
-    - uses: ./container-github-action-example # Uses an action in the root directory
     - name: Hello world action step
       id: hello
       uses: seandavi/BiocActions/inst/actions/hello-world-docker-action@master
